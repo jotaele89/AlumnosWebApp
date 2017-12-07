@@ -35,7 +35,13 @@ namespace AlumnosWebApp.Controllers
             return Ok(tarea);
         }
 
+        //nuevas line
+        //sas de codigo web 
+        ///sdklsjad///
         // PUT: api/Tareas/5
+
+
+
         [ResponseType(typeof(void))]
         public IHttpActionResult PutTarea(int id, Tarea tarea)
         {
@@ -69,7 +75,6 @@ namespace AlumnosWebApp.Controllers
 
             return StatusCode(HttpStatusCode.NoContent);
         }
-
         // POST: api/Tareas
         [ResponseType(typeof(Tarea))]
         public IHttpActionResult PostTarea(Tarea tarea)
