@@ -88,6 +88,7 @@ namespace AlumnosWebApp.Controllers
             return CreatedAtRoute("DefaultApi", new { id = tareaAlumno.IdTarea },
            tareaAlumno);
         }
+        //delete
         // DELETE: api/TareaAlumnos/5/6
         [ResponseType(typeof(TareaAlumno))]
         [Route("api/TareaAlumnos/{idTarea}/{idAlumno}")]

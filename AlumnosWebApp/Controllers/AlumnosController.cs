@@ -99,6 +99,10 @@ namespace AlumnosWebApp.Controllers
             return CreatedAtRoute("DefaultApi", new { id = alumno.Id }, alumno);
         }
 
+
+
+
+        //delete
         // DELETE: api/Alumnos/5
         [ResponseType(typeof(Alumno))]
         public IHttpActionResult DeleteAlumno(int id)
